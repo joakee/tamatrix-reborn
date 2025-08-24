@@ -2,14 +2,11 @@
 
 A fork of the [Tamagotchi Singularity](https://spritesmods.com/?art=tamasingularity) by [Jeroen Domburg](https://github.com/spritetm).
 
+The aim is to fix the original emulator code to compile on modern systems, as well as hopefully add new features and enhancements to not only the emulator, but the other project components as a whole.
+
 ### Original README:
 
 ```
-The aim is to fix the original emulator code to compile on modern systems, as well as hopefully add new features and enhancements to not only the emulator, but the other project components as a whole.
-
-
-
-
 This contains all the software I've used/written for the Tamagotchi Matrix and viewer.
 
 The directory structure:
