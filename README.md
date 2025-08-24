@@ -1,3 +1,15 @@
+# Tamatrix - Reborn
+
+A fork of the [Tamagotchi Singularity](https://spritesmods.com/?art=tamasingularity) by [Jeroen Domburg](https://github.com/spritetm).
+
+### Original README:
+
+```
+The aim is to fix the original emulator code to compile on modern systems, as well as hopefully add new features and enhancements to not only the emulator, but the other project components as a whole.
+
+
+
+
 This contains all the software I've used/written for the Tamagotchi Matrix and viewer.
 
 The directory structure:
@@ -49,7 +61,7 @@ suggest also wiring the reset input to the reset button of the Tamagotchi, to ma
 With the thing assembled, to pick an access point to connect to, hold button1 of the Tamagotchi for >5 seconds.
 The ESP12 should now go into access point mode. Connect to it and point a webbrowser at http://192.168.4.1 to
 select an access point.
-
+```
 
 
 
