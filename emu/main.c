@@ -117,7 +117,7 @@ int main(int argc, char **argv) {
 	while(1) {
 		clock_gettime(CLOCK_MONOTONIC, &tstart);
 		tamaRun(tama, FCPU/FPS-1);
-		lcdRender(tama->dram, tama->lcd.sizex, tama->lcd.sizey, &display);
+		lcdRender((uint8_t *)tama->dram, tama->lcd.sizex, tama->lcd.sizey, &display);
 		udpTick();
 		if (aiEnabled) {
 			k=benevolentAiRun(&display, 1000/FPS);
@@ -132,7 +132,7 @@ int main(int argc, char **argv) {
 		}
 		if ((k&8)) {
 			//If anything interesting happens, make a LCD dump.
-			lcdDump(tama->dram, tama->lcd.sizex, tama->lcd.sizey, "lcddump.lcd");
+			lcdDump((uint8_t *)tama->dram, tama->lcd.sizex, tama->lcd.sizey, "lcddump.lcd");
 			if (stopDisplay) {
 				tama->cpu->Trace=1;
 				speedup=0;

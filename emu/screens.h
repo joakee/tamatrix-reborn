@@ -1,4 +1,5 @@
-
+#ifndef SCREENS_H
+#define SCREENS_H
 
 extern const unsigned char *screen_poopie1;
 extern const unsigned char *screen_poopie2;
@@ -28,3 +29,4 @@ extern const unsigned char *screen_born1;
 extern const unsigned char *screen_born2;
 extern const unsigned char *screen_hearts;
 
+#endif

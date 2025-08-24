@@ -9,5 +9,6 @@ int benevolentAiMacroRun(char *name);
 void benevolentAiReqIrComm(int type);
 void benevolentAiAckIrComm(int type);
 int benevolentAiDbgCmd(char *cmd);
+void benevolentAiDump(void);
 
 #endif

@@ -173,4 +173,5 @@ void tamaToggleBkunk(Tamagotchi *t);
 void tamaPressBtn(Tamagotchi*t, int btn);
 void tamaDeinit(Tamagotchi *tama);
 
+void tamaDumpHw(M6502 *cpu);
 #endif
